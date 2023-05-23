@@ -90,6 +90,8 @@ yarn beauty // 爬取美女图片
 yarn weibo-hot // 爬取微博热搜
 
 yarn baidu-hot // 爬取百度热搜
+
+yarn tiantian-fund // 爬取天天基金筛选数据
 ```
 
 ### 其他

@@ -17,7 +17,7 @@ let total = 0 // 筛选结果总数
 let current = 1 // 当前页面
 
 /**
- * 基金规模规则： 今年前50，资金规模不超过10亿,成立10年
+ * 基金规模规则： 今年前50，资金规模不超过10亿
  * @param rs {string} 业绩
  * @param rt {string} 评级 [上证-sz， 招商-zs， ja-济安][不限，...一到五星]
  * @param se {string} 基金规模
