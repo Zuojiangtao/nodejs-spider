@@ -1,6 +1,10 @@
 <h2 align="center">基于Nodejs的爬虫程序</h2>
 
-<img src="img/crawler_primary.png" style="margin-left: 50%; transform: translateX(-50%)">
+<p align="center">
+  <a href="https://github.com/bda-research/node-crawler">
+    <img alt="Node.js" src="https://raw.githubusercontent.com/bda-research/node-crawler/master/crawler_primary.png" width="500"/>
+  </a>
+</p>
 
 ### 前言
 
