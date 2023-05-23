@@ -54,6 +54,19 @@
 
 > cheerio作为选择器使用要处理，cheerio.load(res.data)。具体使用请看：https://github.com/cheeriojs/cheerio
 
+#### 3. 天天基金
+
+同样的，这个程序也是通过**抓取接口形式**来爬取数据。
+
+* 通过axios获取接口数据;
+* 并对获取到的数据做处理，将会得到 `var rankData ={ /.../ }` 形式数据;
+* 使用 `node-xlsx` 将[[str, str, str], [str, str, str]]形式数据转换为buffer;
+* 将buffer通过fs模块下载到本地，这里是指定了下载位置到 `/static`;
+
+![](img/tiantian_fund.png)
+
+源码请看 `src/tiantian-fund.js`。
+
 ### 项目本地预览
 
 ### Clone repo

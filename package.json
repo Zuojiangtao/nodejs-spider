@@ -6,7 +6,8 @@
   "scripts": {
     "beauty": "node src/beauty.js",
     "weibo-hot": "node src/weibo_hot.js",
-    "baidu-hot": "node src/baidu_hot.js"
+    "baidu-hot": "node src/baidu_hot.js",
+    "tiantian-fund": "node src/taintian-fund.js"
   },
   "keywords": [],
   "author": "zuojiangtao",
@@ -15,6 +16,7 @@
   "dependencies": {
     "axios": "^1.4.0",
     "cheerio": "^1.0.0-rc.12",
-    "download": "^8.0.0"
+    "download": "^8.0.0",
+    "node-xlsx": "^0.21.2"
   }
 }
