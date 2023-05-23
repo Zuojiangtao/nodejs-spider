@@ -7,7 +7,7 @@
     "beauty": "node src/beauty.js",
     "weibo-hot": "node src/weibo_hot.js",
     "baidu-hot": "node src/baidu_hot.js",
-    "tiantian-fund": "node src/taintian-fund.js"
+    "tiantian-fund": "node src/tiantian-fund.js"
   },
   "keywords": [],
   "author": "zuojiangtao",
