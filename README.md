@@ -50,6 +50,31 @@
 
 > cheerio作为选择器使用要处理，cheerio.load(res.data)。具体使用请看：https://github.com/cheeriojs/cheerio
 
+### 项目本地预览
+
+### Clone repo
+
+```bash
+git clone --depth=1 https://github.com/Zuojiangtao/nodejs-spider.git my-project
+cd my-project
+```
+
+#### 安装依赖
+
+```shell
+yarn install
+```
+
+#### 运行爬虫指令
+
+```shell
+yarn beauty // 爬取美女图片
+
+yarn weibo-hot // 爬取微博热搜
+
+yarn baidu-hot // 爬取百度热搜
+```
+
 ### 其他
 
 #### 下载文件的模块
