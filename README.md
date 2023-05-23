@@ -1,6 +1,4 @@
-## 用Nodejs实现爬虫
-
----
+<h2 align="center">基于Nodejs的爬虫程序</h2>
 
 <img src="img/crawler_primary.png" style="margin-left: 50%; transform: translateX(-50%)">
 
