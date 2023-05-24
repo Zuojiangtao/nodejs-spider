@@ -1,7 +1,7 @@
 {
   "name": "nodejs-spider",
   "version": "1.0.0",
-  "description": "A crawler program based on nodejs",
+  "description": "A crawler/spider program based on nodejs",
   "main": "index.js",
   "scripts": {
     "beauty": "node src/beauty.js",
@@ -9,7 +9,7 @@
     "baidu-hot": "node src/baidu_hot.js",
     "tiantian-fund": "node src/tiantian-fund.js"
   },
-  "keywords": [],
+  "keywords": ["nodejs", "crawler", "spider", "cheerio"],
   "author": "zuojiangtao",
   "homepage": "https://github.com/Zuojiangtao/nodejs-spider",
   "license": "MIT",
