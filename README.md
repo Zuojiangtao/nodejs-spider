@@ -110,7 +110,7 @@ yarn tiantian-fund // 爬取天天基金筛选数据
 
 #### 其他依赖及模块推荐
 
-1. 一款轻量级nodejs爬虫工具：[node-crawler](https://github.com/cheeriojs/cheerio);
+1. 一款轻量级nodejs爬虫工具：[node-crawler](https://github.com/bda-research/node-crawler);
 2. 一个验证码相关工具：[node-tesseract](https://github.com/desmondmorris/node-tesseract);
 3. 爬虫定时爬取：[node-schedule](https://github.com/node-schedule/node-schedule);
 4. 将markdown文件转成PDF文件：[markdown-pdf](https://github.com/alanshaw/markdown-pdf);
