@@ -1,7 +1,7 @@
 {
   "name": "nodejs-spider",
   "version": "1.0.0",
-  "description": "A crawler/spider program based on nodejs",
+  "description": "A crawler program collection based on nodejs",
   "main": "index.js",
   "scripts": {
     "beauty": "node src/beauty.js",

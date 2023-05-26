@@ -39,7 +39,7 @@
 像百度热搜，我们通过分析页面DOM结构可知热搜数据位于 `.theme-hot[theme="realtime"] .list_1EDla a` ，通过 `cheerio` 框架来使用选择器获取热搜文案及其他数据。
 然后可以直接使用nodejs 内置工具函数 `fs.writeFileSync` 来将数据保存到本地。结果如下：
 
-![](img/baidu_hot.png)
+<img src="img/baidu_hot.png" width="400">
 
 可以运行 `npm run baidu-hot` 然后在 `static/baidu_realtime_hot.json` 查看。
 
@@ -48,7 +48,7 @@
 有些网站为了防爬虫加了一些校验，如微博热搜需要设置 `Cookie`。一般来说比较简单，我们F12查看可以通过分析看文件请求 `Request Headers` 字段是否有校验字段，通常是cookie和token这种。
 可以对微博热搜设置headers来通过校验。结果如下：
 
-![](img/weibo_hot.png)
+<img src="img/weibo_hot.png" width="400">
 
 可以运行 `npm run weibo-hot` 然后在 `static/weibo_realtime_hot.json` 查看。
 
