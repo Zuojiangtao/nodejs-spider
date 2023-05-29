@@ -1,6 +1,4 @@
 const axios = require('axios')
-// const querystring = require('querystring')
-// const https = require('https')
 const xlsx = require('node-xlsx').default
 const fs = require('fs')
 const path = require('path')
