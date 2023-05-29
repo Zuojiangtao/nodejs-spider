@@ -1,14 +1,10 @@
-<h2 align="center">基于Nodejs的爬虫程序</h2>
+<h2 align="center">基于Nodejs的爬虫程序集</h2>
 
 <p align="center">
-  <a href="https://github.com/bda-research/node-crawler">
-    <img alt="Node.js" src="https://raw.githubusercontent.com/bda-research/node-crawler/master/crawler_primary.png" width="500"/>
-  </a>
+  <img src="img/spider.jpg" width="500" alt="NodeJs爬虫" />
 </p>
 
-### 前言
-
-网络爬虫（又称为网页蜘蛛，网络机器人，在FOAF社区中间，更经常的称为网页追逐者），是一种按照一定的规则，自动地抓取万维网信息的程序或者脚本。另外一些不常使用的名字还有蚂蚁、自动索引、模拟程序或者蠕虫。
+### 项目简介
 
 本项目是基于nodejs实现的一系列爬虫程序集合，将一些有用或有趣的数据爬取下来。
 
