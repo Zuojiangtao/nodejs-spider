@@ -67,6 +67,12 @@
 
 源码请看 `src/tiantian-fund.js`。
 
+#### 4. 国家统计局
+
+通过**爬取接口的方式**获取相应的数据，并生成xlsx文件。这里我爬取了 `国民经济核算最近6季度的数据`。
+
+<img src="img/national_data.png" width="600">
+
 ### 项目本地预览
 
 ### Clone repo
@@ -92,6 +98,8 @@ yarn weibo-hot // 爬取微博热搜
 yarn baidu-hot // 爬取百度热搜
 
 yarn tiantian-fund // 爬取天天基金筛选数据
+
+yarn national-data // 爬取国家统计局经济核算数据
 ```
 
 ### 其他

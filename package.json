@@ -7,7 +7,8 @@
     "beauty": "node src/beauty.js",
     "weibo-hot": "node src/weibo_hot.js",
     "baidu-hot": "node src/baidu_hot.js",
-    "tiantian-fund": "node src/tiantian-fund.js"
+    "tiantian-fund": "node src/tiantian-fund.js",
+    "national-data": "node src/national_data.js"
   },
   "keywords": ["nodejs", "crawler", "spider", "cheerio"],
   "author": "zuojiangtao",
