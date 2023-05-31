@@ -22,7 +22,7 @@
 
 对于这个美女网站我们可以直接爬取接口来获取图片url，然后将图片保存。结果如图：
 
-![beauty](img/beauty.png)
+<img src="img/beauty.png" width="600">
 
 完整源代码请看 `src/beauty.js`。
 
@@ -69,6 +69,12 @@
 
 <img src="img/national_data.png" width="600">
 
+#### 5. 高清素材
+
+通过**爬取接口的方式**获取相应高清图片素材，这个网站有token校验，要自己登录获取相应字段值 `Sentry-Trace` 和 `Cookie`。
+
+<img src="img/pexels.png" width="600">
+
 ### 项目本地预览
 
 ### Clone repo
@@ -96,6 +102,8 @@ yarn baidu-hot // 爬取百度热搜
 yarn tiantian-fund // 爬取天天基金筛选数据
 
 yarn national-data // 爬取国家统计局经济核算数据
+
+yarn pexels // 爬取高清素材图片
 ```
 
 ### 其他
@@ -120,4 +128,5 @@ yarn national-data // 爬取国家统计局经济核算数据
 4. 将markdown文件转成PDF文件：[markdown-pdf](https://github.com/alanshaw/markdown-pdf);
 5. xlsx：[node-xlsx](https://github.com/mgcrea/node-xlsx);
 6. csv：[node-csv](https://github.com/adaltas/node-csv);
-7. 其他依赖资源汇总：[awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs);
+7. 模拟用户在浏览器中进行的多种操作和行为: [puppeteer](https://puppeteer.bootcss.com/);
+8. 其他依赖资源汇总：[awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs);

@@ -8,9 +8,15 @@
     "weibo-hot": "node src/weibo_hot.js",
     "baidu-hot": "node src/baidu_hot.js",
     "tiantian-fund": "node src/tiantian-fund.js",
-    "national-data": "node src/national_data.js"
+    "national-data": "node src/national_data.js",
+    "pexels": "node src/pexels.js"
   },
-  "keywords": ["nodejs", "crawler", "spider", "cheerio"],
+  "keywords": [
+    "nodejs",
+    "crawler",
+    "spider",
+    "cheerio"
+  ],
   "author": "zuojiangtao",
   "homepage": "https://github.com/Zuojiangtao/nodejs-spider",
   "license": "MIT",
@@ -18,6 +24,7 @@
     "axios": "^1.4.0",
     "cheerio": "^1.0.0-rc.12",
     "download": "^8.0.0",
-    "node-xlsx": "^0.21.2"
+    "node-xlsx": "^0.21.2",
+    "puppeteer-core": "^20.4.0"
   }
 }
