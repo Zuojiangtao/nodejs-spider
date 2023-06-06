@@ -75,6 +75,12 @@
 
 <img src="img/pexels.png" width="600">
 
+#### 6. 4k高清壁纸
+
+通过**页面分析的方式**获取相应高清壁纸。
+
+<img src="img/netbian.png" width="600">
+
 ### 项目本地预览
 
 ### Clone repo
@@ -104,6 +110,8 @@ yarn tiantian-fund // 爬取天天基金筛选数据
 yarn national-data // 爬取国家统计局经济核算数据
 
 yarn pexels // 爬取高清素材图片
+
+yarn netbian // 爬取4k高清壁纸
 ```
 
 ### 其他
