@@ -1,4 +1,4 @@
-<h2 align="center">基于Nodejs的爬虫程序集</h2>
+<h2 align="center">Nodejs爬虫程序集</h2>
 
 <p align="center">
   <img src="img/spider.jpg" width="500" alt="NodeJs爬虫" />
