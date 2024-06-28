@@ -122,6 +122,8 @@ yarn national-data // 爬取国家统计局经济核算数据
 yarn pexels // 爬取高清素材图片
 
 yarn netbian // 爬取4k高清壁纸
+
+yarn book // 爬取电子小说
 ```
 
 ### 其他
