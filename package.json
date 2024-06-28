@@ -10,7 +10,8 @@
     "tiantian-fund": "node src/tiantian-fund.js",
     "national-data": "node src/national_data.js",
     "pexels": "node src/pexels.js",
-    "netbian": "node src/netbian.js"
+    "netbian": "node src/netbian.js",
+    "book": "node src/book.js"
   },
   "keywords": [
     "nodejs",

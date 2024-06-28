@@ -81,6 +81,16 @@
 
 <img src="img/netbian.png" width="600">
 
+#### 7. 电子小说下载
+
+使用 `puppeteer` 模拟浏览器手动操作，可以将自己想要下载的电子小说下载到本地。
+
+> 文件 `book.js` 中Line22,executablePath字段为自己电脑本地chrome安装路径；Line119, 参数配置小说名字和作者名字，其中作者名字可以不写，但是下载的是搜索到的第一个结果；
+
+<img src="img/book.png" width="600">
+
+后续可以自己将下载的小说导入到阅读器或应用中。
+
 ### 项目本地预览
 
 ### Clone repo
